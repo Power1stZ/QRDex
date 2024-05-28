@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507720682C05B70300CE1357 /* InputQr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507720672C05B70300CE1357 /* InputQr.storyboard */; };
+		5077206A2C05B81600CE1357 /* InputQrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507720692C05B81600CE1357 /* InputQrModel.swift */; };
+		507720792C05BC2C00CE1357 /* QrDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507720782C05BC2C00CE1357 /* QrDisplayViewController.swift */; };
+		5077207B2C05BC4C00CE1357 /* QrDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5077207A2C05BC4C00CE1357 /* QrDisplay.storyboard */; };
+		5077207D2C05C12D00CE1357 /* InputQRTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077207C2C05C12D00CE1357 /* InputQRTest.swift */; };
 		9936D5BE2BEB6FDF00342BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936D5BD2BEB6FDF00342BC9 /* AppDelegate.swift */; };
 		9936D5C02BEB6FDF00342BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936D5BF2BEB6FDF00342BC9 /* SceneDelegate.swift */; };
 		9936D5C22BEB6FDF00342BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936D5C12BEB6FDF00342BC9 /* ViewController.swift */; };
@@ -15,9 +20,8 @@
 		9936D5CA2BEB6FE200342BC9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9936D5C92BEB6FE200342BC9 /* Base */; };
 		995A6F1F2BFB05BE0054404D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A6F1E2BFB05BE0054404D /* MenuViewController.swift */; };
 		995A6F212BFB05D40054404D /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995A6F202BFB05D40054404D /* Menu.storyboard */; };
-		995A6F2A2BFB14FB0054404D /* QrDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A6F282BFB14FB0054404D /* QrDisplayViewController.swift */; };
-		995A6F2B2BFB14FB0054404D /* QrDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995A6F292BFB14FB0054404D /* QrDisplay.storyboard */; };
-		995A6F2D2BFB154A0054404D /* InputQr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995A6F2C2BFB154A0054404D /* InputQr.storyboard */; };
+		995A6F2A2BFB14FB0054404D /* QrDisplayViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A6F282BFB14FB0054404D /* QrDisplayViewController1.swift */; };
+		995A6F2B2BFB14FB0054404D /* QrDisplay1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995A6F292BFB14FB0054404D /* QrDisplay1.storyboard */; };
 		995A6F2F2BFB15540054404D /* InputQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A6F2E2BFB15540054404D /* InputQrViewController.swift */; };
 		995A6F312BFB164F0054404D /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A6F302BFB164F0054404D /* PokemonListViewController.swift */; };
 		995A6F332BFB165D0054404D /* PokemonList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995A6F322BFB165D0054404D /* PokemonList.storyboard */; };
@@ -43,6 +47,11 @@
 		0C5ABE70B49E19F2DBBFD953 /* Pods-QRDex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRDex.debug.xcconfig"; path = "Target Support Files/Pods-QRDex/Pods-QRDex.debug.xcconfig"; sourceTree = "<group>"; };
 		13B611C2676CF7B197BCAD0B /* Pods_QRDex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRDex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA3ADCA4264A5463ACF3E31 /* Pods-QRDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRDex.release.xcconfig"; path = "Target Support Files/Pods-QRDex/Pods-QRDex.release.xcconfig"; sourceTree = "<group>"; };
+		507720672C05B70300CE1357 /* InputQr.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = InputQr.storyboard; path = ../../../../../Downloads/InputQr.storyboard; sourceTree = "<group>"; };
+		507720692C05B81600CE1357 /* InputQrModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputQrModel.swift; path = ../../../../../Downloads/InputQrModel.swift; sourceTree = "<group>"; };
+		507720782C05BC2C00CE1357 /* QrDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QrDisplayViewController.swift; path = "../../../../../Downloads/QrDisplay (1)/QrDisplayViewController.swift"; sourceTree = "<group>"; };
+		5077207A2C05BC4C00CE1357 /* QrDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = QrDisplay.storyboard; path = "../../../../../Downloads/QrDisplay (1)/QrDisplay.storyboard"; sourceTree = "<group>"; };
+		5077207C2C05C12D00CE1357 /* InputQRTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputQRTest.swift; sourceTree = "<group>"; };
 		9936D5BA2BEB6FDF00342BC9 /* QRDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9936D5BD2BEB6FDF00342BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9936D5BF2BEB6FDF00342BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,9 +62,8 @@
 		9936D5CB2BEB6FE200342BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995A6F1E2BFB05BE0054404D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		995A6F202BFB05D40054404D /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
-		995A6F282BFB14FB0054404D /* QrDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrDisplayViewController.swift; sourceTree = "<group>"; };
-		995A6F292BFB14FB0054404D /* QrDisplay.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QrDisplay.storyboard; sourceTree = "<group>"; };
-		995A6F2C2BFB154A0054404D /* InputQr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputQr.storyboard; sourceTree = "<group>"; };
+		995A6F282BFB14FB0054404D /* QrDisplayViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrDisplayViewController1.swift; sourceTree = "<group>"; };
+		995A6F292BFB14FB0054404D /* QrDisplay1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QrDisplay1.storyboard; sourceTree = "<group>"; };
 		995A6F2E2BFB15540054404D /* InputQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputQrViewController.swift; sourceTree = "<group>"; };
 		995A6F302BFB164F0054404D /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		995A6F322BFB165D0054404D /* PokemonList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PokemonList.storyboard; sourceTree = "<group>"; };
@@ -136,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				995A6F222BFB14C50054404D /* Menu */,
-				995A6F272BFB14E60054404D /* Qr */,
+				995A6F272BFB14E60054404D /* QrDisplay */,
 				995A6F342BFB16650054404D /* InputQr */,
 				995A6F362BFB167A0054404D /* PokemonList */,
 			);
@@ -152,19 +160,22 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
-		995A6F272BFB14E60054404D /* Qr */ = {
+		995A6F272BFB14E60054404D /* QrDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				995A6F292BFB14FB0054404D /* QrDisplay.storyboard */,
-				995A6F282BFB14FB0054404D /* QrDisplayViewController.swift */,
+				5077207A2C05BC4C00CE1357 /* QrDisplay.storyboard */,
+				507720782C05BC2C00CE1357 /* QrDisplayViewController.swift */,
+				995A6F292BFB14FB0054404D /* QrDisplay1.storyboard */,
+				995A6F282BFB14FB0054404D /* QrDisplayViewController1.swift */,
 			);
-			path = Qr;
+			path = QrDisplay;
 			sourceTree = "<group>";
 		};
 		995A6F342BFB16650054404D /* InputQr */ = {
 			isa = PBXGroup;
 			children = (
-				995A6F2C2BFB154A0054404D /* InputQr.storyboard */,
+				507720692C05B81600CE1357 /* InputQrModel.swift */,
+				507720672C05B70300CE1357 /* InputQr.storyboard */,
 				995A6F2E2BFB15540054404D /* InputQrViewController.swift */,
 			);
 			path = InputQr;
@@ -191,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				995C2EDA2BFC9D08007967E6 /* QRDexTests.swift */,
+				5077207C2C05C12D00CE1357 /* InputQRTest.swift */,
 			);
 			path = QRDexTests;
 			sourceTree = "<group>";
@@ -306,9 +318,10 @@
 			files = (
 				9936D5C72BEB6FE200342BC9 /* Assets.xcassets in Resources */,
 				9936D5CA2BEB6FE200342BC9 /* Base in Resources */,
-				995A6F2D2BFB154A0054404D /* InputQr.storyboard in Resources */,
 				995A6F332BFB165D0054404D /* PokemonList.storyboard in Resources */,
-				995A6F2B2BFB14FB0054404D /* QrDisplay.storyboard in Resources */,
+				507720682C05B70300CE1357 /* InputQr.storyboard in Resources */,
+				5077207B2C05BC4C00CE1357 /* QrDisplay.storyboard in Resources */,
+				995A6F2B2BFB14FB0054404D /* QrDisplay1.storyboard in Resources */,
 				9936D5C52BEB6FDF00342BC9 /* Base in Resources */,
 				995A6F212BFB05D40054404D /* Menu.storyboard in Resources */,
 			);
@@ -373,12 +386,14 @@
 				995C2ED12BFC8591007967E6 /* QrGenaraterService.swift in Sources */,
 				995A6F2F2BFB15540054404D /* InputQrViewController.swift in Sources */,
 				9936D5C22BEB6FDF00342BC9 /* ViewController.swift in Sources */,
-				995A6F2A2BFB14FB0054404D /* QrDisplayViewController.swift in Sources */,
+				995A6F2A2BFB14FB0054404D /* QrDisplayViewController1.swift in Sources */,
 				9936D5BE2BEB6FDF00342BC9 /* AppDelegate.swift in Sources */,
+				5077206A2C05B81600CE1357 /* InputQrModel.swift in Sources */,
 				995A6F312BFB164F0054404D /* PokemonListViewController.swift in Sources */,
 				CB636FF32BFEF26700041931 /* PokemonListData.swift in Sources */,
 				9936D5C02BEB6FDF00342BC9 /* SceneDelegate.swift in Sources */,
 				995A6F1F2BFB05BE0054404D /* MenuViewController.swift in Sources */,
+				507720792C05BC2C00CE1357 /* QrDisplayViewController.swift in Sources */,
 				CB636FF22BFEF26700041931 /* PokemonData.swift in Sources */,
 				CB636FF62BFEF2D500041931 /* APIClient.swift in Sources */,
 			);
@@ -389,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				995C2EDB2BFC9D08007967E6 /* QRDexTests.swift in Sources */,
+				5077207D2C05C12D00CE1357 /* InputQRTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
